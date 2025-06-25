@@ -15,3 +15,6 @@ The above would define some two-tuple (vector) in the real number coordinate spa
 
 To add vectors, simply add them. They must be the same dimension. Might see something like $\vec{a}, \vec{b} \in \mathbb{R}^n$
 
+colinear
+coplanar
+scalar multiplication
