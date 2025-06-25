@@ -13,7 +13,7 @@ $$
 
 The above would define some two-tuple (vector) in the real number coordinate space. 
 
-To add vectors, simply add them. They must be the same dimension. Might see something like $\vec{a}, \vec{b} \in \mathbb{R}^n$
+To add vectors, simply add them. Subtracting them is similar, but fun fact if vectors are subtracted in opposite directions the resulting vector is the opposite. They must be the same dimension. Might see something like $\vec{a}, \vec{b} \in \mathbb{R}^n$
 
 colinear
 coplanar
