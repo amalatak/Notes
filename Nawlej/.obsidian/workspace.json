@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Linear Algebra/Linear Algebra.md",
+                "file": "Math/Linear Algebra/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Algebra"
+              "title": "Introduction"
             }
           }
         ]
@@ -170,9 +170,9 @@
   },
   "active": "d284d4e6ac5dcc10",
   "lastOpenFiles": [
-    "Home.md",
     "Math/Linear Algebra/Linear Algebra.md",
-    "Math/Linear Algebra/Vectors.md",
+    "Math/Linear Algebra/Introduction.md",
+    "Home.md",
     "Software",
     "Software.md",
     "Math/Linear Algebra",
