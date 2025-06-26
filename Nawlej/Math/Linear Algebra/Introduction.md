@@ -21,7 +21,7 @@ scalar multiplication
 
 # Unit Vectors
 
-Unit vectors indicate the direction a vector is oriented. Often denoted with $ \hat{i}, \hat{j}, \hat{k} $ corresponding to x, y, z, respectively. For example, a vector, $ \vec{v} \in \mathbb{R}^2 $ could be described as 
+Unit vectors indicate the direction a vector is oriented. Often denoted with $\hat{i}, \hat{j}, \hat{k}$ corresponding to x, y, z, respectively. For example, a vector, $\vec{v} \in \mathbb{R}^2$ could be described as 
 
 $$
 \vec{v} = 1\hat{i} -2\hat{j}
