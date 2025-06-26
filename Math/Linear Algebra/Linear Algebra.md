@@ -1,8 +1,11 @@
 
+**Definition**
+Linear algebra is a branch of mathematics that studies vectors, matrices, and linear transformations.
 
 
 
 
+# Useful Symbols
 
 | Terms                     | Definition       |
 | ------------------------- | ---------------- |
