@@ -18,3 +18,18 @@ To add vectors, simply add them. Subtracting them is similar, but fun fact if ve
 colinear
 coplanar
 scalar multiplication
+
+# Unit Vectors
+
+Unit vectors indicate the direction a vector is oriented. Often denoted with $ \hat{i}, \hat{j}, \hat{k} $ corresponding to x, y, z, respectively. For example, a vector, $ \vec{v} \in \mathbb{R}^2 $ could be described as 
+
+$$
+\vec{v} = 1\hat{i} -2\hat{j}
+$$
+
+Indicating it has 1 unit of _something_ in the x-direction, and -2 units in the y-direction.
+
+
+
+
+
