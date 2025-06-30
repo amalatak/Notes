@@ -14,5 +14,6 @@ Linear algebra is a branch of mathematics that studies vectors, matrices, and li
 | $\in$                     | Is an element of |
 | $\vec{v}$ or $\mathbf{v}$ | Vector           |
 | **A**                     | Array/Matrix     |
+| \|                        | Such that        |
 
 

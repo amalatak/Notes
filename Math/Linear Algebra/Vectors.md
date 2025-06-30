@@ -14,8 +14,6 @@ $$
 \vec{v} - \vec{u} = \vec{t} \space \Rightarrow \space \vec{v} - \vec{u} = -\vec{t}
 $$
 
-
-colinear
 coplanar
 scalar multiplication
 
@@ -42,8 +40,27 @@ $$
 $$
 
 Indicating it has 1 unit of _something_ in the x-direction, and -2 units in the y-direction.
+## Lines 
 
+Up-front, parametric equations are the only way to describe lines in all dimensions. Note that these are not always linear lines, such as a fly's flightpath. A <b><u>parametric equation</u></b> is a set of equations with a distinct independent variable used to find all equation solutions for a given form of that independent variable. 
 
+We can describe a set of vectors as well. Consider the set of all <b><u>collinear</u></b> vectors, or vectors in identical orientations, for a given vector, $\vec{v}$:
+$$
+S = \{c\vec{v}|c \in \mathbb{R}\}
+$$
+Note that this is a really formal way of saying that S is a set of vector cv, where v is our vector and c could be a constant anywhere in real numbers. If drawn in their <b><u>standard form</u></b>, originating at the origin, this will just look like a line with v acting as the slope. 
 
-
+Now imagine another set, L, with an arbitrary vector, $\vec{x}$
+$$
+L = \{\vec{x} + t\vec{v}|t, x \in \mathbb{R}\}
+$$
+This is a general way of writing a line in higher dimensions than just $\mathbb{R}^2$ . It follows that one can determine the vector, $\vec{v}$ as described above, from two vectors that point on a line, $\vec{a}, \vec{b}$. If we assume to want the vector that runs from $\vec{a}$ to $\vec{b}$, then we can simply do:
+$$
+\vec{v}=\vec{b}-\vec{a}
+$$
+And so we can create a line 
+$$
+L = \{\vec{x} + t\vec{v}|t \in \mathbb{R}\};\vec{x} = \vec{b} \cup \vec{a}
+$$
+Note here that x could be b or a. This works for *n* dimensions. 
 
