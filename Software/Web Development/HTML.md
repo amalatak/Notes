@@ -56,6 +56,7 @@ Lists can be ordered (numbered) or unordered (bullets), and are denoted as follo
 </ul>
 ```
 
+Lists can be nested in list item elements. 
 ### Images
 Images can be inserted into pages, but require some mandatory attributes. It's also worth noting that there is no closing tag for an image. 
 

@@ -93,6 +93,28 @@ And the CSS would look like
 }
 ```
 
+### Pseudoclass
+There are classes that might only apply when an element is in a given state, such as when a cursor is hovering over it for example.
+
+```
+----- CSS -----
+button {
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+	background-color: green;
+}
+
+button:hover {
+	background-color: red;
+}
+...
+----- HTML -----
+<button>
+	Click Me
+</button>
+```
+
 ### Styling Hierarchy
 Multiple elements can be called and styled, which creates a problem in CSS called *specificity*. Specificity is ordered as
 1. in-line
@@ -101,8 +123,118 @@ Multiple elements can be called and styled, which creates a problem in CSS calle
 4. type
 
 ### More Selectors
-The ways of referencing HTML elements in CSS discussed above is not limited to that. Idk google them, don't really care enough to add them here. 
+The ways of referencing HTML elements in CSS discussed above is not limited to that. There are many but a few examples are:
 
+* Descendent selectors - can select if one item is nested in another
+* Direct descendent selectors - can select if one item is directly nested below another item
+* Attribute selectors - select based on an attribute
+	* e.g. `a[href="https://google.com"] { ... }`
+
+# Responsive Design
+It's important to style web pages dynamically based on web page viewing medium or method. Phone screens will look different than laptop screens will look different than tablets.
+
+The <b>viewport</b> is the portion of the screen that displays content to a user. We can adjust for this by adding the following to the html page
+
+`meta name="viewport" content="width=device-width, initial-scale=1.0"`
+
+This changes the viewport to be the width of the device. 
+
+### Media Queries
+These help control how pages look depending on how the page is rendered or how big the screen is. We can check whether a page is vertical or horizontal, or whether the user is viewing on a computer or printout. We can adjust the color, padding, margin, make something visible or invisible, etc. 
+
+Here is an example that changes a h1 color based on screen width.
+
+```
+----- CSS -----
+@media (min-width: 600px) {
+	h1 {
+		background-color: red;
+	}
+}
+
+@media (max-width: 599px) {
+	h1 {
+		background-color: blue;
+	}
+}
+
+----- HTML -----
+<h1>Hello World</h1>
+```
+
+### Flexbox
+This is helpful for displaying elements on a page in different ways based on screen size. 
+
+```
+----- CSS -----
+#container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#container > div {
+	background-color: green;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	width: 200px;
+}
+----- HTML -----
+<div id="container">
+	<div>1. Some sample text</div>
+	<div>2. Some sample text</div>
+	<div>3. Some sample text</div>
+	...
+	<div>n. Some sample text</div>
+</div>
+```
+
+This code generates a series of HTML elements that are boxes. They each have a given size, but have been styled with flexbox such that each element will remain a fixed width and wrap the browser-width to show up as a grid of different dimensions. 
+
+### Grid Layout
+Another way to layout elements is using a grid
+
+```
+----- CSS -----
+#grid {
+	background-color: green;
+	display: grid;
+	padding: 20px;
+	grid-column-gap: 20px; 
+	grid-row-gap: 10px;
+	grid-template-columns: 200px 200px auto;
+}
+
+.grid-item {
+	background-color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+----- HTML -----
+<div id="grid">
+	<div class="grid-item">1</div>
+	<div class="grid-item">2</div>
+	<div class="grid-item">3</div>
+	...
+	<div class="grid-item">n</div>
+</div>
+```
+# Bootstrap
+CSS styling doesn't need to be done from scratch every time, and probably not a lot at all. A popular CSS library for implementing that concept is Bootstrap. 
+
+Bootstrap can be included in a web page and by including a certain class in a div
+
+`<link rel="stylesheet" href="bootstrap_link">`
+
+where `bootstrap_link` is taken from [their website](https://getbootstrap.com). That class can assume styling of Bootstrap such as
+
+* Alerts
+* Tables
+* Buttons
+* etc
+
+Bootstrap is also mobile-adaptive, with element options for sizing based on screen size. 
 
 # Common CSS Tools
 There are many frameworks and different CSS methods you can use to style pages, but here are a few major examples
