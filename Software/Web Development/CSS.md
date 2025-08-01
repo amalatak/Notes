@@ -236,6 +236,81 @@ where `bootstrap_link` is taken from [their website](https://getbootstrap.com). 
 
 Bootstrap is also mobile-adaptive, with element options for sizing based on screen size. 
 
+# Sass
+A Sass framework is a collection of pre-written Sass files, mix-ins, functions, and variables designed to streamline the development of CSS by providing a structured and reusable foundation. These frameworks leverage the features of Sass, such as variables, nesting, mixins, and functions, to create a more organized, maintainable, and efficient way of writing styles.
+
+Sass must be installed separately to a computer much like many other programs and sass files can be written with `.scss` extensions and compiled to `css` files like so.
+
+`sass <file>.scss:<file>.css`
+
+Which will compile the sass into css, and then the generated css can be included in html like any other css file. **Note**: Sass compiled CSS is not unique and generally could be written by any person, it only makes the writing of the code easier and faster. 
+
+Instead of having to do that every time you change the sass script, you can run the following to have sass take over and automatically recompile. 
+
+`sass --watch <file>.scss:<file>.css 
+
+If the sass file is ever changed, the css file will be recompiled automatically. 
+### Common variables
+One of the benefits is being able to define common variables in css
+
+```
+$color: red;
+
+div-1 {
+	font-size: 14px;
+	color: $color;
+}
+
+div-2 {
+	font-size: 18px;
+	color: $color;
+}
+```
+
+This example defines a variable for color that is applied across two divs.
+
+### Nesting
+CSS selectors can be nested within others more easily than in vanilla css. As hinted at in the [[#Syntax and Structure#More Selectors|More Selectors]] section, you can reference nested elements in many ways but one example is
+
+`div1 > div2`
+
+Which will only grab div2 when it's directly below div1. Sass can make this easier with this framework
+
+```
+div {
+	size: orange
+
+	div2 {
+		color: blah
+	}
+	ol {
+		font: tbd
+	}
+}
+```
+
+All of the above code is garbage, but this is how sass can structure nested styling. 
+
+### Inheritance 
+CSS can style elements that share common features with other ones. For example, warning, error, and success messages share common structure but usually with different colors. Sass can make this easy. We can define a generic message that we can later add information to. 
+
+```
+%message {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px;
+}
+
+.success {
+	@extend %message;
+	background-color: green;
+}
+```
+
+Here we see success is an extension of the message framework with some minor additional styling; and we can do the same for warning and error messages with orange and red.  
 # Common CSS Tools
 There are many frameworks and different CSS methods you can use to style pages, but here are a few major examples
 ### Size
@@ -301,8 +376,3 @@ td, th {
 ```
 
 
-Follow up with Chris about NASA security standard
-Follow up on latency requirement if not being accounted for, ask antenna providers to give us timestamps if now
-Follow up with FSW about testing launch pad connections on MK1
-Check AAA requirements for flight voc restrictions
-Talk to people about packet loss requirement
