@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b498297ed305e18",
+            "id": "eecc3989f6210036",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Food.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Food"
             }
           },
           {
-            "id": "76ccaa84a1143cf1",
+            "id": "e8a51b7681a7bd5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,77 +36,49 @@
             }
           },
           {
-            "id": "adcb9e3f2455249d",
+            "id": "7d01932a496e915e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Web Development/CSS.md",
+                "file": "Invention Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "Invention Ideas"
             }
           },
           {
-            "id": "5eab68d0fabaaca9",
+            "id": "da5deedaea8beabd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/Web Development/Web Development.md",
+                "file": "History/American History/9. Reconstruction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Development"
+              "title": "9. Reconstruction"
             }
           },
           {
-            "id": "52b996f2b0d0de39",
+            "id": "02397d5a9c0df509",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gardening.md",
+                "file": "Food.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gardening"
-            }
-          },
-          {
-            "id": "67cfe735d6c44e83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software/Web Development/Django.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Django"
-            }
-          },
-          {
-            "id": "adf37415992c0673",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software/Python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python"
+              "title": "Food"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -245,6 +217,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -253,22 +226,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "adf37415992c0673",
+  "active": "02397d5a9c0df509",
   "lastOpenFiles": [
-    "Software/Web Development/Django.md",
-    "Software/Python.md",
-    "Software/Web Development/Git.md",
-    "Woodworking.md",
-    "To Do.md",
-    "Gardening.md",
-    "Home.md",
-    "Software/Git.md",
-    "Software/Web Development/CSS.md",
-    "Software/Web Development/Web Development.md",
-    "Software/Web Development/HTML.md",
-    "Food.md",
-    "Software.md",
+    "History/American History/10. Changes and The Wild West.md",
+    "History/American History/1. Early America.md",
+    "History/American History/9. Reconstruction.md",
+    "History/American History/8. War.md",
+    "History/American History/7. Road to the Civil War.md",
+    "Math/Linear Algebra/Matrices.md",
     "Math/Linear Algebra/Linear Algebra.md",
+    "Math/Linear Algebra/Linear Spaces.md",
+    "Math/Linear Algebra/Vectors.md",
+    "Misc.md",
+    "To Do.md",
+    "History/American History/6. Changes.md",
+    "Blog/NASA's Problem.md",
+    "Budget.md",
+    "Christmas Gifts.md",
+    "Food.md",
+    "Software/Web Development/HTML.md",
+    "History/American History/5. Reactions to Change.md",
+    "Software/Web Development/CSS.md",
+    "Software/Artificial Intelligence.md",
+    "Software/Python.md",
+    "Home.md",
+    "History/World History.md",
+    "History/American History/4. Republicanism.md",
+    "History/American History.md",
+    "History/American History/2. Revolution and New Government.md",
+    "History/American History",
+    "History",
+    "Science",
     "test.html"
   ]
 }

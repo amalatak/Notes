@@ -23,8 +23,6 @@ This definition simply states that the *span* of a set of vectors is simply anot
 Not all spans cover all possibilities, the zero vector span is zero, for example. Two collinear vectors can only span along their direction; in this case they are <b><u>linearly dependent</u></b>.  
 
 NB: There are proofs for spans, if it comes up a lot add more notes here
-
-
 # Linear Independence
 
 A set of vectors can be <b><u>linearly dependent</u></b>, which means that some vector(s) in a set can be represented by some combination of the other vector(s) in a set. For example, three coplanar vectors would be linearly dependent. 

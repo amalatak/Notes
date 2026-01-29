@@ -1,39 +1,51 @@
-This week
-* Pull weeds
-* Remove some rocks
-* Todo list for wife
-	* Water all pots on deck (plus Lemon, side vine, and front Peony area):
-		* every day if >95
-		* every other day >90
-		* otherwise every two days 
-* (Before leaving)
-	* Feed starter
-	* Mow grass (Friday)
-	* Water all inside plants (Sat or Sun)
-	* Laundry
+## ASAP
+* Order wood samples
+* Book seattle trip
+* Book ski trip for Friday
+	* Request that day off
+* Put away hoses
 
-This weekend
-* Take greg somewhere
-	* Maybe Ned
-	* Lost lake
-	* Fishing
-* Food
-	* Trader Joes
-	* H mart
-	* Lemon Tart
+## Q1
+* Finish history audiobook
+* HTML/CSS code camp
+* Linear Algebra
 
-Soon
-* Herman Gulch
-* Grill chicken for the week
-* Gazpacho
-* Pina Coladas and/or mojito
-* Lemon tart 
+## Q2
+* JavaScript
+* Probability/Statistics
+* Linear Systems
 
+## Q3
+* placeholder-for-website-stuff
+* Vector Calculus
+* Control Theory
+
+## Q4
+* Estimation I
+
+## This Weekend
+* Bonfire
+* Buy shirt
+* Buy wood for shelf
+* Print dog picture and order frame (24x16 matted to 20x28)
+* Finish dad's thing
+	* Sharpen tools (practice?)
+	* Need a strop 
+
+## Entertainment
+* Listening
+	* Nightvale
+	* Magnus Archive
+	* DCC 2
+* Watch
+	* Movies from list
+
+## Garage
+* Build workbench
+* Install wooden cabinets
 
 ## Outside
-* (Next up) Front path with new pergola
 * (Over rest of year) Remove volcano rocks, replace with mulch and maybe some compost
-* (ASAP) Replace fence
 * (By year end) Have arborist look at trees (especially crabapple)
 	* Stop thinking about trees until this happens
 * (By next spring) Edge back corner by currants
@@ -43,7 +55,19 @@ Soon
 * (Next summer/fall) Side yard remodel
 
 ## House
+* Outlet by my dresser for alarm clock 
+	* Maybe add another one by the bed while I'm at it
 * Floors
 * Kitchen
 * Bathroom
 * Air seal and insulate attic
+* Wife closet light
+
+## Things to buy (in order)
+* Picture and frame of doggy
+* Lawnmower
+* (Optional)
+	* Hatch alarm clock
+	* La Metric or other smart clock
+
+
