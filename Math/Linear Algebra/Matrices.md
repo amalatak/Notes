@@ -1,4 +1,6 @@
-
+To do:
+* Practice matrix multiplication
+* Practice inverse, transpose, moving rows/columns around
 ## Basics
 
 A system of linear equations can generally be boiled down to 
@@ -27,6 +29,15 @@ This is a linear combination of columns, or vectors, and we try to find an amoun
 
 Absent the solution for $\vec{b}$, the linear combination of all 2-columns is $\mathbb{R}^2$, the whole plane. 
 
+## Permutations
+
+There are permutations, P, which execute row exchanges. Sometimes for *LU* factorization, permutations are needed to make the rows in good order such that
+$$
+\matrix{P}\matrix{A}=LU
+$$
+*P* is the identity matrix with reordered rows (excepting the case where *P=I*). The number of permutations is given by *n!*, and every *P* is invertible: $P^{-1}=P^T \space OR \space P^TP=I$ . 
+
+Permutations are critical for **Gauss-Jordan Elimination**, whereby reordering (and combining/multiplying r=matrix rows) to find the identity matrix and performing those operations on the identity matrix leads to finding a matrix inverse numerically. This is based on the principle that any matrix can be operated on by another matrix to reorder, combine, multiply, or some combination of such. Doing this on the identity matrix at the same time finds the inverse. 
 ## Matrix Multiplication
 
 $$
@@ -73,6 +84,26 @@ In addition, the transpose of an inverse is the inverse of a transpose such that
 $$
 (\matrix{A^{-1}})^T = (\matrix{A^T})^{-1}
 $$
+
+## Transpose
+
+The transpose of a matrix A, $A^T$ is defined such that
+$$
+(A^T)_{ij}=A_{ji}
+$$
+And we can define a symmetrical matrix such that
+$$
+A^T=A
+$$
+A non-symmetric matrix can be symmetric 
+$$
+A^TA
+$$
+with the proof that
+$$
+(A^TA)^T = A^TA^{TT} = A^TA
+$$
+Since transpose operations are applied in reverse order.
 ### Notes
 
 A matrix can be commuted (rows switched around) by doing $\matrix{I^*}\matrix{A}$ where $\matrix{I^*}$ is the identity matrix with its rows changed to reflect the desired change in rows of **A**. For example

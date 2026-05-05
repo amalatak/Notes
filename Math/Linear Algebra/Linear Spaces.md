@@ -78,3 +78,15 @@ V=Span(\vec{v_1}, \vec{v_2}...\vec{v_n})
 $$
 such that the set of vectors, $S=\left\{\vec{v_1}, \vec{v_2},...\vec{v_n}\right\}$, are linearly independent, then the set, $S$, is a basis for $V$, meaning that the set is the smallest number of vectors needed to construct every vector in the space. 
 
+## Space
+
+A space is a defined region that allows for linear combinations to be made.
+$$
+\vec{a} = [3, 2, 0] \in \mathbb{R}^3
+$$
+Which defines the vector, a, as having 3 real values. Vector spaces must be closed under multiplication and addition of vectors for all linear combinations. This means a space cannot be defined as, say, the NE quadrant of R^2 since scalars can be negative. 
+
+But there are such things as subspaces. A vector space inside R^2 (a subspace) could be a line in R^2 which contains all the vectors along it, which must go through the zero vector because zero is a multiplyable scalar. Subspaces in R^2 could be all of R^2, all lines through the origin, the zero vector. For R^3 we include planes, and so on. 
+
+For a matrix, A, all of the columns and their linear combinations (multiply by something and add) form a subspace we can call the column space C(A). A space of 2 vectors in R^3 makes a plane.  
+

@@ -1,12 +1,32 @@
-## ASAP
-* Order wood samples
-* Book seattle trip
-* Book ski trip for Friday
-	* Request that day off
-* Put away hoses
+## Kitchen
+* Figure out how filler pieces work
+* Figure out undermount lighting
+* Complete electrical in sink area
+* Finish filling low spots in counter area
+	* Perhaps practice texture and blending
+* Call electrician for new outlet
+	* Get quote for panel upgrade
+* Go shopping
+	* Order oven and cooktop
+	* Order sink (undermount, porcelain or stainless)
+		* And faucet
+* Build little section structure with door
+	* Order the tambours
+* Kitchen Materials
+	* Order cabinets (the other pieces)
+	* Backsplash
+* Assembly
+	* Build cabinets
+	* Install backsplash
+* Order countertop
+* Order new vent hood thing
+
+Cool things to have:
+* Under mount lighting
+* Dimmer switches
+* 
 
 ## Q1
-* Finish history audiobook
 * HTML/CSS code camp
 * Linear Algebra
 
@@ -27,16 +47,12 @@
 * Bonfire
 * Buy shirt
 * Buy wood for shelf
-* Print dog picture and order frame (24x16 matted to 20x28)
-* Finish dad's thing
-	* Sharpen tools (practice?)
-	* Need a strop 
 
 ## Entertainment
 * Listening
 	* Nightvale
 	* Magnus Archive
-	* DCC 2
+	* DCC 3
 * Watch
 	* Movies from list
 
@@ -53,6 +69,11 @@
 * (By next spring) Edge the side of the yard by the fence
 	* Make a long stretching flower bed
 * (Next summer/fall) Side yard remodel
+* Plants
+	* Tomatoes (all indeterminate)
+		* San Marzano
+		* Cherokee Carbon
+		* Sungold cherry tomatoes
 
 ## House
 * Outlet by my dresser for alarm clock 

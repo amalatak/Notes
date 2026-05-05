@@ -41,3 +41,5 @@ Simple ground tracking plot over a few passes, determine when to get epoch or TL
 
 ### Blog
 Create a blog with posts that can be categorized and filtered by topic. Have suggested topics and pages at intro. Create login system to view all posts and public system for publicly viewable ones (e.g. keep politics and religion to myself). Default of posts should be private. 
+
+Posts should be CRUD-able. 

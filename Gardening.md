@@ -45,5 +45,20 @@ Plant Bed Veggies
 	4. Didn't plant the fucking beans
 	5. Potatoes, need to be rotated
 
+This year 
+* Back left, left to right
+	* Radish
+	* Spinach
+	* Arugula
+	* Salad
+	* Potatoes
+* Front left, left to right
+	* Carrots
+	* Beets
+	* Onions
+	* Kale
+	* Broccoli
+	* Beans
+
 ### Future Ideas
 Bean teepee: create a teepee of sticks and grow beans up it to make a little hideout, maybe for when we have kiddos
