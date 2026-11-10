@@ -1,30 +1,37 @@
 ## Kitchen
-* Figure out how filler pieces work
+* Plumber
+	* Install disposal
+	* Hook up sink and sprayer
+	* Hook up dishwarsher
+* Fix trim that doesn't go all the way down
+	* 6 8-ft trim pieces and 1 10-fit piece
+	* Probably 40ft of quarter-round
+	* Also fix the transition to the living room
+* Finish the wood accents
+	* Acquire,  cut, and stain piece for the closet
+	* Cut and install the trim
+		* trash area
+		* pantry (custom wood)
+		* Extra storage cabinet
+	* Transition piece to living room
+* Finish tambouring the cabinet
+	* Order more samples and identify one
+	* Build the door
+	* Apply the flexible panels
+* Backsplash
+	* Choose a tile
+	* Order
+	* Install
 * Figure out undermount lighting
-* Complete electrical in sink area
-* Finish filling low spots in counter area
-	* Perhaps practice texture and blending
-* Call electrician for new outlet
-	* Get quote for panel upgrade
-* Go shopping
-	* Order oven and cooktop
-	* Order sink (undermount, porcelain or stainless)
-		* And faucet
-* Build little section structure with door
-	* Order the tambours
-* Kitchen Materials
-	* Order cabinets (the other pieces)
-	* Backsplash
-* Assembly
-	* Build cabinets
-	* Install backsplash
-* Order countertop
+	* Add switch to outlet
+	* Run that to the upper cabinet with whatever else is needed. Might just stub out for now
+	* Install the undermount lighting 
 * Order new vent hood thing
 
 Cool things to have:
 * Under mount lighting
 * Dimmer switches
-* 
+
 
 ## Q1
 * HTML/CSS code camp
@@ -64,10 +71,13 @@ Cool things to have:
 * (Over rest of year) Remove volcano rocks, replace with mulch and maybe some compost
 * (By year end) Have arborist look at trees (especially crabapple)
 	* Stop thinking about trees until this happens
-* (By next spring) Edge back corner by currants
-	* Plant some flowers in front of them maybe
-* (By next spring) Edge the side of the yard by the fence
-	* Make a long stretching flower bed
+* (By next spring) Garden/side aread
+	* Edge back corner by currants
+		* Plant some flowers in front of them maybe
+	* Edge the side of the yard by the fence
+		* Make a long stretching flower bed
+	* Mulch in between garden beds with walking path
+	* Potentially move the sprinkler heads
 * (Next summer/fall) Side yard remodel
 * Plants
 	* Tomatoes (all indeterminate)

@@ -1,0 +1,1 @@
+It's popular to criticize turf lawns on the internet, with some good reason. They use a large share of municipal water -somewhere around 50% of it- and they don't provide much ecological benefit. Instead, people commonly recommend replacing turf lawns with native gardens or paved  
